@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent">
+<EditText
+    android:textSize="24sp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:id="@+id/email"
+    android:hint="E-mail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</EditText>
+
+    <EditText
+        android:textSize="24sp"
+        android:layout_below="@id/email"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/senha"
+        android:hint="Senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/senha"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginRight="16dp
+"
+            android:layout_toRightOf="@id/login"
+            android:layout_marginTop="16dp"
+            android:id="@+id/cadastrar"
+            android:text="Cadastrar-se"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:layout_marginTop="16dp"
+            android:id="@+id/login"
+            android:text="Fazer login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
